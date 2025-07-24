@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TiendaTemplate\\Backend\\TiendaApi\\TiendaApi.csproj": {}
+    "D:\\TiendaTemplate\\backend\\TiendaApi\\TiendaApi.csproj": {}
   },
   "projects": {
-    "D:\\TiendaTemplate\\Backend\\TiendaApi\\TiendaApi.csproj": {
+    "D:\\TiendaTemplate\\backend\\TiendaApi\\TiendaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TiendaTemplate\\Backend\\TiendaApi\\TiendaApi.csproj",
+        "projectUniqueName": "D:\\TiendaTemplate\\backend\\TiendaApi\\TiendaApi.csproj",
         "projectName": "TiendaApi",
-        "projectPath": "D:\\TiendaTemplate\\Backend\\TiendaApi\\TiendaApi.csproj",
+        "projectPath": "D:\\TiendaTemplate\\backend\\TiendaApi\\TiendaApi.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "D:\\TiendaTemplate\\Backend\\TiendaApi\\obj\\",
+        "outputPath": "D:\\TiendaTemplate\\backend\\TiendaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,16 @@
               "target": "Package",
               "version": "[8.0.17, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -71,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
