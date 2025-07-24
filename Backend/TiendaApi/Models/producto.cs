@@ -6,21 +6,25 @@ namespace TiendaApi.Models
 {
     public class Producto
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
-        [StringLength(100)]
         public string Nombre { get; set; }
 
-        [StringLength(500)]
-        public string? Descripcion { get; set; }
+        public string Descripcion { get; set; }
 
-        [Column(TypeName = "decimal(18,2)")]
+        [Required]
         public decimal Precio { get; set; }
 
         public int Stock { get; set; }
-        
+
         public string ImagenUrl { get; set; }
-    }
+
+        // Relación con Categoria
+        public int CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
+        
+
+}
+   
 }

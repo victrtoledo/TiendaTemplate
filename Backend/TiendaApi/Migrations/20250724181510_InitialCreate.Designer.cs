@@ -9,7 +9,7 @@ using TiendaApi.Data;
 
 namespace TiendaApi.Migrations
 {
-    [DbContext(typeof(ProductoDbContext))]
+    [DbContext(typeof(TiendaDbContext))]
     [Migration("20250724181510_InitialCreate")]
     partial class InitialCreate
     {
